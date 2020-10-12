@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#main-container{
+    width: 1000px;
+    background-color: rgb(112, 89, 99);
+    margin: 0 auto;
+}
+.main-header{
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: 4rem;
+}
+.main-header > h2{
+    margin: auto 0  ;
+}
+.main-header > h1{
+    font-family: "Comic Sans MS";
+    margin: auto 0;
+}
+a{
+    color: black;
+}
+.card {
+    margin: 0 1rem;
+    background-color: rgb(224, 211, 222);
+}
+.card > h2{
+    background-color: darkgray;
+    padding: .5rem;
+    color: whitesmoke;
+}
+.card > p{
+padding: .5rem;
+}
+.buttons > button{
+    background-color: green;
+    color: whitesmoke;
+}
+.row{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-evenly;
+}
+.main-image{
+    width: 50%;
+    border: 6px solid gray;
+}
+.image{
+    width: 100%;
+}
+.small-images > img, .small-images > a > img{
+    width: 35px;
+    height: 35px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
